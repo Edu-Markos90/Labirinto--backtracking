@@ -1,4 +1,4 @@
-# Resolução de Labirinto com Backtracking e Pilha em C
+# Labirinto com Backtracking e Pilha em C
 
 Este projeto resolve o problema de encontrar o caminho entre uma posição inicial e o tesouro (`$`) dentro de um labirinto, utilizando **algoritmo de backtracking** e a estrutura de dados **pilha**, como proposto na disciplina de **Estrutura de Dados** da Universidade Federal da Paraíba (UFPB).
 
