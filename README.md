@@ -1,53 +1,39 @@
+# Resolução de Labirinto com Backtracking e Pilha em C
 
-# 🧩 Labirinto com Backtracking em C
+Este projeto resolve o problema de encontrar o caminho entre uma posição inicial e o tesouro (`$`) dentro de um labirinto, utilizando **algoritmo de backtracking** e a estrutura de dados **pilha**, como proposto na disciplina de **Estrutura de Dados** da Universidade Federal da Paraíba (UFPB).
 
-Este projeto implementa a resolução de um labirinto utilizando o algoritmo de **backtracking com estrutura de dados tipo pilha**, proposto na disciplina de **Estrutura de Dados** da UFPB.
+## Objetivo
 
-## 🎯 Objetivo
+A prática tem como finalidade aplicar os conceitos de:
+- Pilhas
+- Algoritmos de busca com backtracking
+- Representação de labirintos como matrizes
+- Manipulação de estruturas de dados em C
 
-A partir de uma posição inicial no labirinto, encontrar o caminho até o tesouro (`$`) usando backtracking e uma pilha para armazenar os caminhos a serem explorados.
+## Representação do Labirinto
 
-## 🛠️ Estrutura
+O labirinto é uma matriz de 5x5, com os seguintes símbolos:
 
-- `labirinto.c`: Código-fonte completo em linguagem C.
-- O labirinto é representado por uma matriz de caracteres.
-- A pilha armazena posições válidas a serem exploradas.
+- `#` : parede (não pode passar)
+- `' '` : caminho livre
+- `*` : posição inicial do jogador
+- `$` : tesouro (destino)
 
-## 📦 Como compilar e executar
 
-Requisitos: GCC instalado.
+## Como compilar e executar
+
+Requisitos: GCC (compilador C)
 
 ```bash
 gcc labirinto.c -o labirinto
 ./labirinto
-```
 
-## 🧪 Exemplo de Labirinto
 
-```text
-#####
-#   #
-# # #
-#*#$#
-#####
-```
 
-- `#` = parede
-- `' '` = caminho livre
-- `*` = posição inicial do jogador
-- `$` = tesouro (objetivo)
 
-## ✅ Resultado esperado
 
-Ao executar, o programa indicará se o tesouro foi encontrado e em qual posição. Caso contrário, dirá que não há caminho.
-
-## 📅 Entrega
-
-Data de entrega: **05/07/2025**  
-Submeta o código no GitHub e poste o link do repositório no SIGAA.
-
----
-
-Desenvolvido para a disciplina de **Estrutura de Dados**  
+Disciplina de Estrutura de Dados
 Professor: Gilberto Farias de Sousa Filho  
-Universidade Federal da Paraíba – CIn
+Universidade Federal da Paraíba
+Nome: Marcos José Edu Ekua Ayingono
+Matrícula: 20220171648
