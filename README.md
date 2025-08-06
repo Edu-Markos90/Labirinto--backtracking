@@ -29,10 +29,8 @@ gcc labirinto.c -o labirinto
 ./labirinto
 
 
+## Disciplina de Estrutura de Dados
 
-
-
-Disciplina de Estrutura de Dados
 Professor: Gilberto Farias de Sousa Filho  
 Universidade Federal da Paraíba
 Nome: Marcos José Edu Ekua Ayingono
