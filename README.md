@@ -24,7 +24,6 @@ gcc labirinto.c -o labirinto
 
 ##  Labirinto
 
-
 - `#` = parede
 - `' '` = caminho livre
 - `*` = posição inicial do jogador
@@ -34,10 +33,9 @@ gcc labirinto.c -o labirinto
 
 Ao executar, o programa indicará se o tesouro foi encontrado e em qual posição. Caso contrário, dirá que não há caminho.
 
- Entrega
-
-Data de entrega: 05/08/2025  
-
-Disciplina de Estrutura de Dados 
-Professor: Gilberto Farias de Sousa Filho  
 Universidade Federal da Paraíba 
+Disciplina de Estrutura de Dados 
+Professor: Gilberto Farias de Sousa Filho 
+Nome: Marcos José Edu ekua Ayingono
+Matricula: 20220171648
+
